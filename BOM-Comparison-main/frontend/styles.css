@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 60px; /* Increased padding to give more space */
+    background-color: #f4f4f9;
+    font-size: 20px; /* Increased base font size */
+}
+
+.container {
+    max-width: 1200px; /* Increased width for larger display */
+    margin: 0 auto;
+    padding: 50px; /* Increased padding inside the container */
+    background-color: #fff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow for more prominence */
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em; /* Increased font size for the heading */
+    color: #333;
+    margin-bottom: 30px; /* Increased bottom margin for more space */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Increased gap between form elements */
+    margin-bottom: 40px; /* Added more space between form and result section */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.2em; /* Increased label font size */
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+input[type="file"] {
+    padding: 12px; /* Increased padding for inputs */
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 18px; /* Increased font size */
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="file"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 25px; /* Larger button padding */
+    font-size: 18px; /* Increased button font size */
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3); /* More pronounced shadow */
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.4);
+}
+
+#result h2 {
+    font-size: 2em; /* Increased subheading size */
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px; /* More space below the subheading */
+}
+
+.common-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px; /* More space above the table */
+}
+
+.common-table th, .common-table td {
+    border: 1px solid #ddd;
+    padding: 15px 20px; /* Increased padding for table cells */
+    text-align: left;
+    font-size: 18px; /* Increased table font size */
+}
+
+.common-table th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.common-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.common-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.common-table td {
+    color: #333;
+}
